@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="发布失物信息.c">
+    <ClCompile Include="打印较大值.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
