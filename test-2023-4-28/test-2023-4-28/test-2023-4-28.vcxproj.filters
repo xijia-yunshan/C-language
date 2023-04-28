@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="利用max函数求较大值.c">
+    <ClCompile Include="利用函数max求较大值.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

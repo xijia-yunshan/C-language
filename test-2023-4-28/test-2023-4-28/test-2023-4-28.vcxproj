@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{199D9786-E8C2-4CA3-B6A5-42521B71EB7E}</ProjectGuid>
-    <RootNamespace>test20234273</RootNamespace>
+    <ProjectGuid>{E695B316-4A1A-4A32-942B-89EC60743CD4}</ProjectGuid>
+    <RootNamespace>test2023428</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -65,7 +65,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="利用max函数求较大值.c" />
+    <ClCompile Include="利用函数max求较大值.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
