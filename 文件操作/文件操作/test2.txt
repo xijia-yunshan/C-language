@@ -1,0 +1,28 @@
+//文件的拷贝
+int main()
+{
+	FILE* pfread = fopen("test.txt", "r");
+
+	if (pfread == NULL)
+	{
+		perror("fopen-1");
+		return 1;
+	}
+
+	FILE* pfwrite = fopen("test2.txt", "r");
+	if (pfwrite == NULL)
+	{
+		perror("fopen-2");
+		fcolse(pfread);
+		pfread = NULL;//如果pfread打开文件成功，pfwrite打开文件失败，就关闭第一个打开的文件，将pfread重置为NULL
+		return 1;
+	}
+
+	//拷贝
+	int ch = 0;
+	while (fgetc(pfread) != EOF)
+	{
+		ch = fgetc(pfread) !;
+		fputc(ch, pfwrite);
+	}
+}
