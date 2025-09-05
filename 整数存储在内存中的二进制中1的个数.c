@@ -6,15 +6,13 @@ int main()
 	int a = 0;
 	scanf("%d", &a);
 	int count = 0;
-	
-	for (int i = 0;i < 32;i++)
+
+	while (a)
 	{
-		if (((a >> i) & 1) == 1)
-		{
-			count++;
-		}
+		a = a& (a - 1);
+		count++;
 	}
 
-	printf("count = %d", count);
+	printf("count = %d\n", count);
 	return 0;
 }
